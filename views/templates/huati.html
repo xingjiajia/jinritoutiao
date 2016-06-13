@@ -1,0 +1,43 @@
+<div class="huati">
+  <div class="tuijian">
+    <ul>
+      <li>推荐</li>
+      <li>关注</li>
+    </ul>
+  </div>
+ <div class="four">
+   <ul>
+     <li>
+       <div class="one one1">
+         <img src="../images/2.jpg" alt="">
+       </div>
+       <div>A</div>
+     </li>
+     <li>
+       <div class="one one2">
+          <img src="../images/3.jpg" alt="">
+       </div>
+       <div>B</div>
+     </li>
+     <li>
+       <div class="one one3">
+          <img src="../images/4.jpg" alt="">
+       </div>
+       <div>C</div>
+     </li>
+     <li>
+       <div class="one one4">
+          <img src="../images/5.jpg" alt="">
+       </div>
+       <div>D</div>
+     </li>
+   </ul>
+ </div>
+ <div class="bo" ng-repeat="v in lists">
+    <a href="">{{v.title}}</a>
+    <span>{{v.content}}</span>
+    <div>
+      <img src="{{v.image}}" alt="">
+    </div>
+ </div>
+</div>
